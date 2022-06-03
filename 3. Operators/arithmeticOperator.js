@@ -1,7 +1,7 @@
 console.log("Arithmatic Operator script loaded");
 
-const a = 10;
-const b = 5;
+const ac = 10;
+const bc = 5;
 
 let result = 0; //chanegable values
 
