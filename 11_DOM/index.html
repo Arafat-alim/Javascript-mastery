@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML DOM</title>
   </head>
+  <style>
+    .menu-item {
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+    }
+    .active {
+      background-color: #fff;
+      color: #000;
+    }
+  </style>
   <body>
     <h1 class="text class1 texting" id="heading">Test</h1>
     <h2 class="small">Test 1</h2>
@@ -13,7 +24,17 @@
 
     <button type="submit">Submit</button>
 
+    <!-- Working with classes -->
+    <ul>
+      <li onclick="menuClicked(this)" class="menu-item">Test 1</li>
+      <li onclick="menuClicked(this)" class="menu-item">Test 2</li>
+      <li onclick="menuClicked(this)" class="menu-item active">Test 3</li>
+      <li onclick="menuClicked(this)" class="menu-item">Test 4</li>
+      <li onclick="menuClicked(this)" class="menu-item">Test 5</li>
+    </ul>
+
     <!-- <script src="selecting elements"></script> -->
-    <script src="elements-property-method.js"></script>
+    <!-- <script src="elements-property-method.js"></script> -->
+    <script src="working-with-classes.js"></script>
   </body>
 </html>
